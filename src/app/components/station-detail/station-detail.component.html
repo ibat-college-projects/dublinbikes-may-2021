@@ -1,0 +1,13 @@
+<h1>{{dublinBikeStation?.name}} [ {{bikeStationId}}]</h1>
+<table *ngIf="dublinBikeStation">
+ 
+    <tr>
+        <td>{{dublinBikeStation.number}}</td>
+        <td>{{dublinBikeStation.contractName}}</td>
+     
+        <td>{{dublinBikeStation.address}}</td>
+        <td>{{dublinBikeStation.number}}</td>
+        <td>{{dublinBikeStation.position.lat}} : {{dublinBikeStation.position.lng}} : </td>
+       
+    </tr>
+</table>
